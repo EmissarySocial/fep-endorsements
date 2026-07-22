@@ -1,6 +1,8 @@
 # FEP-xxxx Endorse Activity
 
-This repository is for brainstorming a Fediverse Enhancement Proposal to add "Endorsements" to the Fediverse. This is an extremely early rough draft that is meant as a starting point for a conversation, not a final document. Please help me to develop this idea by adding issues to this repository.
+This repository is for brainstorming a Fediverse Enhancement Proposal to add "Endorsements" to the Fediverse. 
+
+This is a temporary, extremely rough, early draft that is meant as a starting point for a conversation, not a final document. Please help me to develop this idea by adding issues to this repository. Once we have more than _12% of a plan_ we'll move this to where it belongs: on Codeberg as a proper FEP
 
 ## The Problem
 In our ever-expanding online communities, it's hard to know who to trust.
