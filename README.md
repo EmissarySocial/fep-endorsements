@@ -32,8 +32,16 @@ A network of `Endorse` activities would also benefit user discovery as well. For
 
 3) LinkedIn builds some interesting analytics on top of their endorsements system. While not a part of this protocol specifically, we should learn from this to see how we can improve on it in a distributed ecosystem.
 
-## How Might This Be Abused?
+## How Might this Be Used?
+The protocol itself will just cover the publishing and accepting of endorsements. However, once this data is published, we can do lots of interesting things with it.  The FEP should also include some (non-normative?) implementation guides to help people get started.  Some suggestions:
 
+* Similar to how LinkedIn manages 1st- 2nd- and 3rd-level relationships, various "trust levels" might extend to the network of endorsements based on their relative "distance" from me.
+* Trust levels could be displayed next to author's names on their posts.
+* Trust levels could be used algorithmically to suggest people to follow, or to sort posts based on various trust levels
+* Trust levels could be a permission setting on posts, in addition to limiting posts to "Followers Only", you could make posts only for "People I Endorse" or "People within my Trust Network" (with a depth of 1, 2, or 3). This goes a long way to facilitating small communities on the Fediverse.
+* Endorsements could become a new way to cross-link between actors. Using Bandwagon.fm as an example, it would allow one Band to `Endorse` another - a signal directly from the band that they recommend their listeners also check out another band they respect.
+
+## How Might This Be Abused?
 Bad people will find ways to abuse any system, and will certainly attack this with all manner of abuses. Sock-puppet accounts, bad-faith endorsements, and all kinds of fraud will happen. Let's list out some ways that we can mitigate this, and make a truly useful system regardless of the bad guys. 
 
 Systems that rely on `Endorse` activities should prevent various forms of abuse. We could recommend various limits for relying systems to place on `Endorse` activities, to ensure that they're working with real humans, and not botnets. We can identify "human-scale" behavior, vs. "machine-scale", and decide to believe the endorsements of actors or servers based on their behavior. 
