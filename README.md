@@ -1,4 +1,4 @@
-# FEP-xxxx Endorse Activity
+# FEP-3447 Endorse Activity
 
 This repository is for brainstorming a Fediverse Enhancement Proposal to add "Endorsements" to the Fediverse. 
 
