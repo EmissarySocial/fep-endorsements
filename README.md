@@ -32,6 +32,16 @@ A network of `Endorse` activities would also benefit user discovery as well. For
 
 3) LinkedIn builds some interesting analytics on top of their endorsements system. While not a part of this protocol specifically, we should learn from this to see how we can improve on it in a distributed ecosystem.
 
+## More Suggestions
+
+Systems that rely on `Endorse` activities should prevent various forms of abuse. We could recommend various limits for relying systems to place on `Endorse` activities, to ensure that they're working with real humans, and not botnets. We can identify "human-scale" behavior, vs. "machine-scale", and decide to believe the endorsements of actors or servers based on their behavior. 
+
+Some ideas (please add more):
+
+* **Maximum Endorsements**: There is some reasonable threshold of endorsements to be trusted. If an actor issues \>N `Endorse` activities, then their endorsements are delisted or ignored.
+* **Rate Limiting**: Limit belief based on the number of `Endorse` activities sent or received. If someone receives \> N endorsements per (time span) a bot swarm is at work.. information available to identify and block the bots at work.
+* **Hacking**If a person's account is hacked, it could be used to provide false endorsements for others. So perhaps a relying system might wait for  endorsements to aged by a certain amount of time before they are trusted.
+
 ## Outstanding Issues
 
 **Abuse** - Bad people will find ways to abuse any system, and will certainly attack this with all manner of abuses. Sock-puppet accounts, bad-faith endorsements, and all kinds of fraud will happen. Let's list out some ways that we can mitigate this, and make a truly useful system regardless of the trolls.
