@@ -35,10 +35,12 @@ A network of `Endorse` activities would also benefit user discovery as well. For
 ## How Might this Be Used?
 The protocol itself will just cover the publishing and accepting of endorsements. However, once this data is published, we can do lots of interesting things with it.  The FEP should also include some (non-normative?) implementation guides to help people get started.  Some suggestions:
 
-* Similar to how LinkedIn manages 1st- 2nd- and 3rd-level relationships, various "trust levels" might extend to the network of endorsements based on their relative "distance" from me.
+* Various "trust levels" might extend to the network of endorsements based on their relative "distance" from me. 1st-degree endorsements are people I endorse directly.  2nd-degree endorsements are people endorsed by by 1st-degree endorsements. And 3rd-degree endorsements are people endorsed by my 2nd-degree endorsements.
 * Trust levels could be displayed next to author's names on their posts.
 * Trust levels could be used algorithmically to suggest people to follow, or to sort posts based on various trust levels
 * Trust levels could be a permission setting on posts, in addition to limiting posts to "Followers Only", you could make posts only for "People I Endorse" or "People within my Trust Network" (with a depth of 1, 2, or 3). This goes a long way to facilitating small communities on the Fediverse.
+* Servers may also choose to Endorse other actors/servers on the Fediverse.
+* Servers might automatically assume an "endorse" relationship from all people on the server up to the server level itself.  This would mean that all endorsements from the server itself would automatically become 2nd-degree endorsements for all users on the server.
 * Endorsements could become a new way to cross-link between actors. Using Bandwagon.fm as an example, it would allow one Band to `Endorse` another - a signal directly from the band that they recommend their listeners also check out another band they respect.
 
 ## How Might This Be Abused?
