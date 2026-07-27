@@ -59,7 +59,7 @@ Optional properties MAY be included with any `Endorse` activity.
 | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
 | [Content](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-content) | HTML formatted text of the endorsement. This SHOULD be a statement from the original actor about the actor being endorsed         |
 | [Image](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image)     | Image to go along with the endorsement. This may be a badge or icon that represents the original actor's endorsement              |
-| [Ttag](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tag)        | One or more [hashtags](https://www.w3.org/TR/activitystreams-vocabulary/#h-microsyntaxes) that help to organize this endorsement. |
+| [Tag](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tag)         | One or more [hashtags](https://www.w3.org/TR/activitystreams-vocabulary/#h-microsyntaxes) that help to organize this endorsement. |
 
 `Endorse` activities may include additional metadata, such as one or more machine-searchable categories (represented in the `hashtag` property) and/or a full text statement (represented in the  `content` property)
 
